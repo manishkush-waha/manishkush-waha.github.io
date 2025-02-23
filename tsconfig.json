@@ -1,0 +1,10 @@
+{
+  "extends": "@4c/tsconfig/web.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "noImplicitAny": false,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
